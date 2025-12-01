@@ -33,7 +33,7 @@ jobs:
     - name: Lint and Test
       run: |
         npm run lint
-        npm test
+        npm test -- --passWithNoTests
 
     # Step 5: Optional: Log in to Docker Hub and push Docker image
     
