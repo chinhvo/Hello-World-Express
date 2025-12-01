@@ -35,10 +35,7 @@ jobs:
         npm run lint
         npm test
 
-    # Step 5: Build Docker image
-    - name: Build Docker Image
-
-    # Step 6: Optional: Log in to Docker Hub and push Docker image
+    # Step 5: Optional: Log in to Docker Hub and push Docker image
     
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
